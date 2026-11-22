@@ -1,5 +1,9 @@
-import WorkspacePage from "@/components/dashboard/WorkspacePage";
+import ClientCollectionTable from "@/components/dashboard/ClientCollectionTable";
 
 export default function CallsPage() {
-  return <WorkspacePage section="Calls" />;
+  return <ClientCollectionTable
+    title="Calls"
+    description="Track call activity for your business."
+    collectionName="calls"
+  />;
 }
