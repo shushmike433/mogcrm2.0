@@ -1,5 +1,9 @@
-import WorkspacePage from "@/components/dashboard/WorkspacePage";
+import ClientCollectionTable from "@/components/dashboard/ClientCollectionTable";
 
 export default function AppointmentsPage() {
-  return <WorkspacePage section="Appointments" />;
+  return <ClientCollectionTable
+    title="Appointments"
+    description="Keep upcoming bookings and customer visits organized."
+    collectionName="appointments"
+  />;
 }
